@@ -1,0 +1,31 @@
+<html>
+<head>
+
+<script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+</script>
+
+</head>
+
+<body>
+<button onclick="calculate()">Click me</button>
+</br></br>
+<div id="abc">uyruyrqryu</div>
+<script>
+
+function calculate() {
+
+    var x;
+    for (x = 0; x < 30; x++){
+    console.log("hello");
+    var y = 3 * Math.pow(x,2) + 4 * x + 1;
+    console.log(x);
+    console.log(y);
+    $('button').css("margin-left", x);
+    $('button').css("margin-top", y);
+}
+};
+
+  
+</script>
+</body>
+</html>
